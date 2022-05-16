@@ -20,8 +20,72 @@ body {
     padding: 10px;
 }
 
-.header .fa-solid {
+.logo {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.fa-location-dot{
+    color: darkorange;
+    margin-right: 10px;
     font-size: 30px;
+}
+
+.header-logo{
+    margin-left: 10px;
+}
+
+.fa-magnifying-glass {
+    font-size: 30px;
+}
+
+.capa {
+    height: 69vh;
+}
+
+.forms{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    font-size: large;
+    background-color: black;
+    color: white;
+}
+
+.form-flight{
+    background-size: contain;
+    background-color: orange;
+    width: calc(100%/3);
+    height: auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 40px;
+}
+
+.form-hotel{
+    background-color: black;
+    width: calc(100%/3);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 40px;
+}
+
+.form-rental{
+    background-color: black;
+    width: calc(100%/3);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 40px;
 }
 
 footer {
@@ -46,11 +110,19 @@ footer {
     .header {
         justify-content: space-between;
     }
+
+    .capa {
+        background-color: black;
+    }
 }
 
 @media (min-width: 450px) {
     .header {
         justify-content: space-between;
+    }
+
+    .capa {
+        background-color: white;
     }
 }
 
@@ -58,10 +130,18 @@ footer {
     .header {
         justify-content: space-around;
     }
+
+    .capa {
+        background-color: blue;
+    }
 }
 
 @media (min-width: 1366px) {
     .header {
         justify-content: space-between;
+    }
+
+    .capa {
+        background-color: red;
     }
 }
