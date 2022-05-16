@@ -13,7 +13,7 @@ body {
 } */
 
 .header {
-    background-color: darkgray;
+    background-color: white;
     align-items: center;
     justify-content: space-between;
     display: flex;
@@ -90,7 +90,7 @@ body {
 
 footer {
     text-align: center;
-    background-color: gray;
+    background-color: whitesmoke;
     color: black;
 }
 
