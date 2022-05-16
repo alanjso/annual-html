@@ -1,5 +1,43 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* body {
+    background-image: url("https://www.nttdata.com/assets3/images/header_logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    backface-visibility: visible;
+} */
+
+.header {
+    background-color: darkgray;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px;
+}
+
+.header .fa-solid {
+    font-size: 30px;
+}
+
+footer {
+    text-align: center;
+    background-color: gray;
+    color: black;
+}
+
+.finduson {
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.power {
+    font-size: 15px;
+    display: inline-block;
+    align-content: center;
+    justify-content: center;
 }
