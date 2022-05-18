@@ -47,8 +47,8 @@ body {
     background-image: url("../images/london.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
-    height: 85vh;
+    background-size: cover;
+    height: 45vh;
     width: auto;
 }
 
@@ -71,7 +71,6 @@ body {
     background-size: contain;
     background-color: orange;
     width: calc(100%/3);
-    height: auto;
     display: flex;
     align-items: center;
     align-content: center;
@@ -80,6 +79,7 @@ body {
 }
 
 .form-hotel {
+    background-size: contain;
     background-color: black;
     width: calc(100%/3);
     display: flex;
@@ -120,11 +120,6 @@ footer {
     .header {
         justify-content: space-between;
     }
-
-    .capa {
-        height: 45vh;
-        width: auto;
-    }
 }
 
 @media (min-width: 450px) {
@@ -132,8 +127,22 @@ footer {
         justify-content: space-between;
     }
 
+    .form-flight,
+    .form-hotel,
+    .form-rental {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: auto;
+        padding-left: 10px;
+    }
+
+    .form-categories {
+        justify-content: flex-start;
+    }
+
     .capa {
-        height: 65vh;
+        justify-content: flex-start;
+        height: 60vh;
         width: auto;
     }
 }
@@ -149,6 +158,8 @@ footer {
         display: flex;
         align-content: center;
         flex-direction: column;
+        height: 75vh;
+        width: auto;
     }
 
     .form-categories {
@@ -172,6 +183,8 @@ footer {
         display: flex;
         align-content: center;
         flex-direction: column;
+        height: 85vh;
+        width: auto;
     }
 
     .form-categories {
