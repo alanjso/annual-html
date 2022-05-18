@@ -14,7 +14,6 @@ body {
 } */
 
 .header {
-    /* background-color: white; */
     align-items: center;
     justify-content: space-between;
     display: flex;
@@ -67,30 +66,23 @@ body {
     color: white;
 }
 
-.form-flight {
-    background-size: contain;
+.flight {
+    background-size: auto;
     background-color: orange;
-    width: calc(100%/3);
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    height: 40px;
 }
 
-.form-hotel {
+.hotel {
     background-size: contain;
     background-color: black;
-    width: calc(100%/3);
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    height: 40px;
 }
 
-.form-rental {
+.rental {
+    background-size: contain;
     background-color: black;
+}
+
+.form {
+    background-size: contain;
     width: calc(100%/3);
     display: flex;
     align-items: center;
@@ -127,9 +119,7 @@ footer {
         justify-content: space-between;
     }
 
-    .form-flight,
-    .form-hotel,
-    .form-rental {
+    .form {
         padding-left: 10px;
         padding-right: 10px;
         width: auto;
@@ -164,6 +154,11 @@ footer {
 
     .form-categories {
         width: 75%;
+        justify-content: space-around;
+    }
+
+    .form {
+        width: calc(100%/3);
     }
 
     .input {
@@ -189,6 +184,11 @@ footer {
 
     .form-categories {
         width: 75%;
+        justify-content: space-around;
+    }
+
+    .form {
+        width: calc(100%/3);
     }
 
     .input {
