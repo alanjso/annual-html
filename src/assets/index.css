@@ -127,8 +127,11 @@ footer {
     color: black;
 }
 
+footer {
+    padding-top: 25px;
+}
+
 .finduson {
-    padding-top: 10px;
     font-size: 25px;
 }
 
@@ -179,7 +182,7 @@ footer {
         display: flex;
         align-content: center;
         flex-direction: column;
-        height: 70vh;
+        height: 80vh;
         width: auto;
     }
 
@@ -209,7 +212,7 @@ footer {
         display: flex;
         align-content: center;
         flex-direction: column;
-        height: 80vh;
+        height: 85vh;
         width: auto;
     }
 
