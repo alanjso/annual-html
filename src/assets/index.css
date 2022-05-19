@@ -74,6 +74,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    margin-left: 5px;
 }
 
 .form-categories {
@@ -119,7 +120,7 @@ body {
 
 .b-flight {
     background-color: #616161;
-    margin: 15px 0px 0px 0px;
+    margin: 15px 0px 0px 5px;
 }
 
 .fromto{
