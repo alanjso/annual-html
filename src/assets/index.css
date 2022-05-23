@@ -36,6 +36,7 @@ body {
 
 .header-logo {
     margin-left: 10px;
+    height: 35px;
 }
 
 .fa-magnifying-glass {
@@ -47,7 +48,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 25vh;
+    height: 35vh;
     width: auto;
 }
 
@@ -55,13 +56,13 @@ body {
     background-size: cover;
     display: flex;
     width: 100%;
-    height: inherit;
+    height: 100%;
     background-color: white;
     justify-content: center;
-    align-items: baseline;
     flex-direction: column;
     align-content: center;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .inputs-and-labels {
@@ -77,11 +78,15 @@ body {
     margin-left: 5px;
 }
 
+.inputs-and-labels input {
+    padding: 7px;
+}
+
 .form-categories {
     display: flex;
     align-items: center;
     align-content: center;
-    justify-content: space-around;
+    justify-content: flex-start;
     font-size: large;
     background-color: black;
     color: white;
@@ -104,23 +109,27 @@ body {
 
 .form {
     background-size: contain;
-    width: calc(100%/3);
+    padding-left: 10px;
+    padding-right: 10px;
+    width: auto;
     display: flex;
     align-items: center;
     align-content: center;
     justify-content: center;
-    height: 40px;
+    height: 38px;
 }
 
 .button {
     border-radius: 0px;
-    padding: 5px;
+    border: 0px;
+    padding: 10px;
     color: #e2e5e5;
 }
 
 .b-flight {
     background-color: #616161;
-    margin: 15px 0px 0px 5px;
+    margin: 0px 0px 0px 5px;
+    width: 50%;
 }
 
 .fromto{
@@ -128,11 +137,13 @@ body {
     flex-direction: column;
     justify-content: center;
     width: 90%;
+    height: 70%;
+    justify-content: space-evenly;
 }
 
 .fromto > h1{
     margin: 0px;
-    margin-bottom: 15px;
+    margin-left: 5px;
 }
 
 footer {
@@ -170,18 +181,17 @@ footer {
         padding-left: 10px;
         padding-right: 10px;
         width: auto;
-        padding-left: 10px;
     }
 
-    .form-categories {
+    /* .form-categories {
         justify-content: flex-start;
-    }
+    } */
 
-    .capa {
+    /* .capa {
         justify-content: flex-start;
-        height: 30vh;
+        height: 35vh;
         width: auto;
-    }
+    } */
 }
 
 @media (min-width: 768px) {
