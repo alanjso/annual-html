@@ -190,13 +190,17 @@ footer {
     border-style: solid;
     display: flex;
     align-content: stretch;
-    align-items: flex-start;
+    align-items: stretch;
     flex-direction: column;
 }
 
 .images {
     display: flex;
     flex-direction: column;
+}
+
+.go-image {
+    padding: 8px;
 }
 
 .image-1x {
