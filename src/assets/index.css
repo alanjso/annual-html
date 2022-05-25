@@ -56,7 +56,7 @@ body {
     background-size: cover;
     display: flex;
     width: 100%;
-    height: 100%;
+    height: 88%;
     background-color: white;
     justify-content: center;
     flex-direction: column;
@@ -80,6 +80,7 @@ body {
 
 .inputs-and-labels input {
     padding: 7px;
+    font-size: 15px
 }
 
 .form-categories {
@@ -129,10 +130,10 @@ body {
 .b-flight {
     background-color: #616161;
     margin: 0px 0px 0px 5px;
-    width: 50%;
+    width: 170px;
 }
 
-.fromto{
+.fromto {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -141,9 +142,10 @@ body {
     justify-content: space-evenly;
 }
 
-.fromto > h1{
+.fromto>h1 {
     margin: 0px;
     margin-left: 5px;
+    font-size: 24px;
 }
 
 footer {
@@ -166,6 +168,19 @@ footer {
     justify-content: center;
 }
 
+.container {
+    width: 98%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+}
+
+.a {
+    background-color: blueviolet;
+    width: 100%;
+    margin-top: 2px;
+}
+
 @media (min-width: 320px) {
     .header {
         justify-content: space-between;
@@ -183,15 +198,9 @@ footer {
         width: auto;
     }
 
-    /* .form-categories {
-        justify-content: flex-start;
-    } */
-
-    /* .capa {
-        justify-content: flex-start;
-        height: 35vh;
-        width: auto;
-    } */
+    .input {
+        height: 92.3%;
+    }
 }
 
 @media (min-width: 768px) {
@@ -205,12 +214,12 @@ footer {
         display: flex;
         align-content: center;
         flex-direction: column;
-        height: 80vh;
+        height: 85vh;
         width: auto;
     }
 
     .form-categories {
-        width: 75%;
+        width: 70%;
         justify-content: space-around;
     }
 
@@ -219,8 +228,8 @@ footer {
     }
 
     .input {
-        width: 75%;
-        height: 70%;
+        width: 70%;
+        height: 65%;
     }
 
     .inputs-and-labels {
@@ -253,7 +262,7 @@ footer {
     }
 
     .form-categories {
-        width: 75%;
+        width: 65%;
         justify-content: space-around;
     }
 
@@ -262,8 +271,8 @@ footer {
     }
 
     .input {
-        width: 75%;
-        height: 70%;
+        width: 65%;
+        height: 40%;
     }
 
     .inputs-and-labels {
@@ -277,5 +286,9 @@ footer {
         flex-direction: column;
         align-items: stretch;
         width: calc(98%/2);
+    }
+
+    .container {
+        width: 80%;
     }
 }
