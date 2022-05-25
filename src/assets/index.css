@@ -142,10 +142,13 @@ body {
     justify-content: space-evenly;
 }
 
-.fromto>h1 {
+h1 {
     margin: 0px;
-    margin-left: 5px;
     font-size: 24px;
+}
+
+.fromto>h1 {
+    margin-left: 5px;
 }
 
 footer {
@@ -169,16 +172,19 @@ footer {
 }
 
 .container {
-    width: 98%;
-    height: 85vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
+    padding: 0px 10px 0px 10px;
 }
 
 .a {
     background-color: blueviolet;
     width: 100%;
-    margin-top: 2px;
+    border: 5px;
+    border-color: green;
+    border-style: solid;
+    display: flex;
 }
 
 @media (min-width: 320px) {
@@ -289,6 +295,6 @@ footer {
     }
 
     .container {
-        width: 80%;
+        padding: 0px 150px 0px 150px;
     }
 }
