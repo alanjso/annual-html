@@ -278,6 +278,19 @@ footer {
         align-items: stretch;
         width: calc(98%/2);
     }
+
+    .images {
+        flex-direction: row;
+    }
+
+    .image-4x {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-2x {
+        flex-direction: row;
+    }
 }
 
 @media (min-width: 1366px) {
@@ -324,5 +337,18 @@ footer {
 
     .container {
         padding: 0px 150px 0px 150px;
+    }
+
+    .images {
+        flex-direction: row;
+    }
+
+    .image-4x {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-2x {
+        flex-direction: row;
     }
 }
