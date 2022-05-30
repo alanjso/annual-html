@@ -162,7 +162,7 @@ label, input {
 .contact-form {
     display: flex;
     flex-direction: column;
-    margin: 0px 0px 0px 10px;
+    margin: 0px 0px 0px 0px;
 }
 
 .contact-form > input {
@@ -189,13 +189,19 @@ label, input {
 h1 {
     margin: 10px;
     margin-bottom: 5px;
+    margin-left: 0px;
     font-size: 24px;
 }
 
 p {
     margin: 10px;
     margin-top: 5px;
+    margin-left: 0px;
     font-size: 15px;
+}
+
+.offers > h1, .offers > p {
+    margin: 10px;
 }
 
 .fromto>h1 {
@@ -260,8 +266,8 @@ footer {
 }
 
 ul {
-    padding: 0px 0px 10px 10px;
-    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    margin: 8px 0px 8px 0px;
 }
 
 li {
