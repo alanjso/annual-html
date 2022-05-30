@@ -48,7 +48,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 35vh;
+    height: 40vh;
     width: auto;
 }
 
@@ -81,6 +81,11 @@ body {
 .inputs-and-labels input {
     padding: 7px;
     font-size: 15px
+}
+
+label, input {
+    font-size: 15px;
+    padding: 2.5px 0px;
 }
 
 .form-categories {
@@ -127,7 +132,24 @@ body {
     color: #e2e5e5;
 }
 
-.button:hover {
+.sub-button {
+    border-radius: 0px;
+    border: 0px;
+    padding: 10px;
+    background-color: #f38981;
+    color: #f8dcd9;
+    width: 10%;
+    margin: 10px;
+    min-width: fit-content;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
+}
+
+.shadow:hover {
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
@@ -135,6 +157,24 @@ body {
     background-color: #616161;
     margin: 0px 0px 0px 5px;
     width: 170px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 10px;
+}
+
+.contact-form > input {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.b-contact {
+    background-color: #000000;
+    margin: 0px 0px 0px 0px;
+    min-width: fit-content;
+    width: 15%;
 }
 
 .fromto {
@@ -147,8 +187,15 @@ body {
 }
 
 h1 {
-    margin: 0px;
+    margin: 10px;
+    margin-bottom: 5px;
     font-size: 24px;
+}
+
+p {
+    margin: 10px;
+    margin-top: 5px;
+    font-size: 15px;
 }
 
 .fromto>h1 {
@@ -194,6 +241,54 @@ footer {
     flex-direction: column;
 }
 
+.offers {
+    background-color: #606060;
+    color: #f9f9f9;
+    width: 100%;
+    display: flex;
+    align-content: stretch;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.contact {
+    width: 100%;
+    display: flex;
+    align-content: stretch;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+ul {
+    padding: 0px 0px 10px 10px;
+    margin: 0px;
+}
+
+li {
+    list-style-type: none;
+    line-height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+li > .fa-location-dot {
+    font-size: 16px;
+    width: 16px;
+    color: black;
+}
+
+li > .fa-solid {
+    margin-right: 5px;
+    padding: 3px;
+}
+
+.offers>h1 {
+    font-size: 35px;
+}
+
 .images {
     display: flex;
     flex-direction: column;
@@ -213,7 +308,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-content: center;
-}
+} 
 
 @media (min-width: 320px) {
     .header {
