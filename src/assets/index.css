@@ -85,7 +85,12 @@ body {
 
 label, input {
     font-size: 15px;
-    padding: 2.5px 0px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+input {
+    padding: 10px;
 }
 
 .form-categories {
@@ -130,6 +135,7 @@ label, input {
     border: 0px;
     padding: 10px;
     color: #e2e5e5;
+    min-width: fit-content;
 }
 
 .sub-button {
